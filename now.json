@@ -4,7 +4,7 @@
   "builds": [
     {
       "src": "project-a/index.js",
-      "use": "@now/node@canary"
+      "use": "@now/node"
     }
   ],
   "routes": [{ "src": "/", "dest": "project-a/index.js" }]
