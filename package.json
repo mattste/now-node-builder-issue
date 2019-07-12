@@ -1,0 +1,11 @@
+{
+  "name": "now-node-builder-bug",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "project-a",
+    "project-b"
+  ]
+}

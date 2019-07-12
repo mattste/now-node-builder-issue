@@ -1,0 +1,11 @@
+{
+  "name": "now-node-builder-bug",
+  "version": 2,
+  "builds": [
+    {
+      "src": "project-a/index.js",
+      "use": "@now/node@canary"
+    }
+  ],
+  "routes": [{ "src": "/", "dest": "project-a/index.js" }]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@my-app/project-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@my-app/project-b": "*"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
